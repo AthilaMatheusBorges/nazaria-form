@@ -1,0 +1,29 @@
+.card{
+    background-color: #CFE5AC;
+    border-radius: 5px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+.div-img{
+    height: 75px;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.bg{
+    background-color: black;
+    height: 20px;
+    align-content: center;
+}
+
+P{
+    font-size: 9px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}

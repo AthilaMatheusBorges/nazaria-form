@@ -1,0 +1,25 @@
+/* Contêiner da lista */
+.container-list {
+    width: 100%; /* Largura total da área visível */
+    overflow-x: auto; /* Permite o scroll horizontal */
+    white-space: nowrap; /* Garante que os itens fiquem em linha */
+  }
+  
+  /* Estilo para a lista */
+  .list-emotions {
+    display: flex; /* Usa flexbox para alinhar itens na horizontal */
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilo para os itens da lista */
+  .item-list {
+    width: 75px;
+    max-height: 95px;
+    flex: 0 0 auto; /* Garante que os itens não quebrem linha */
+    border-radius: 5px;
+    margin: 8px;
+    white-space: nowrap; /* Impede que o conteúdo dos itens quebre linha */
+  }
+  

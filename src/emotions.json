@@ -1,0 +1,27 @@
+[
+    {
+        "nome": "INDIFERENÇA",
+        "img": "/assets/indiferenca.svg",
+        "bg-color": "#CFE5AC"
+    },
+    {
+        "nome": "ALEGRIA",
+        "img": "/assets/alegria.svg",
+        "bg-color": "#FBF6BF"
+    },
+    {
+        "nome": "RAIVA",
+        "img": "/assets/raiva.svg",
+        "bg-color": "#FA8984"
+    },
+    {
+        "nome": "MEDO",
+        "img": "/assets/medo.svg",
+        "bg-color": "#E0CFE7"
+    },
+    {
+        "nome": "ANSIEDADE",
+        "img": "/assets/ansiedade.svg",
+        "bg-color": "#FCBE87"
+    }
+]
