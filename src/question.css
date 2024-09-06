@@ -1,25 +1,89 @@
 /* Contêiner da lista */
+
 .container-list {
-    width: 100%; /* Largura total da área visível */
-    overflow-x: auto; /* Permite o scroll horizontal */
-    white-space: nowrap; /* Garante que os itens fiquem em linha */
-  }
-  
-  /* Estilo para a lista */
-  .list-emotions {
-    display: flex; /* Usa flexbox para alinhar itens na horizontal */
-    list-style-type: none; /* Remove os marcadores padrão da lista */
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* Estilo para os itens da lista */
-  .item-list {
-    width: 75px;
-    max-height: 95px;
-    flex: 0 0 auto; /* Garante que os itens não quebrem linha */
-    border-radius: 5px;
-    margin: 8px;
-    white-space: nowrap; /* Impede que o conteúdo dos itens quebre linha */
-  }
-  
+  width: 100%;
+  /* Largura total da área visível */
+  overflow-x: auto;
+  /* Permite o scroll horizontal */
+  white-space: nowrap;
+  /* Garante que os itens fiquem em linha */
+}
+
+.container-question {
+  width: 100%;
+}
+
+/* Estilo para a lista */
+.list-emotions {
+  display: flex;
+  /* Usa flexbox para alinhar itens na horizontal */
+  list-style-type: none;
+  /* Remove os marcadores padrão da lista */
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo para os itens da lista */
+.item-list {
+  width: 75px;
+  flex: 0 0 auto;
+  /* Garante que os itens não quebrem linha */
+  border-radius: 5px;
+  margin: 8px;
+  white-space: nowrap;
+  /* Impede que o conteúdo dos itens quebre linha */
+}
+
+.text-question {
+  color: #ffffff;
+  font-size: 16px;
+  margin:15px;
+  font-family: Carter;
+  font-weight: 300;
+}
+
+.list-questions {
+  list-style-type: none;
+  /* Remove marcadores da lista externa */
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  /* Ocupa toda a largura disponível */
+  background-color: #f5f5f5;
+}
+
+.item-question {
+  padding: 10px;
+  margin-bottom: 40px;
+  background-color: #155A9E;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  position: relative;
+}
+
+.circle{
+  width: 50px;             /* Definindo a largura */
+  height: 50px;            /* Definindo a altura igual para criar um quadrado */
+  background-color: #ffffff; /* Cor de fundo (opcional) */
+  border-radius: 50%;       /* Transforma o quadrado em círculo */
+  border: 3px solid #000000; /* Adiciona uma borda */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:-30px;           /* Centraliza verticalmente no meio do contêiner */
+  left: 10px; 
+  font-family: Caveat;
+  font-size: 32px;
+}
+
+button{
+  padding-inline: 20px;
+  padding-block: 10px;
+  background-color: #155A9E;
+  margin-bottom: 50px;
+  font-size: 26px;
+  color: #ffffff;
+  font-family: Caveat;
+  border-radius: 10px;
+}

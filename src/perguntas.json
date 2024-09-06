@@ -1,0 +1,50 @@
+[
+    {
+        "pergunta": "Inicia o expediente:",
+        "id": 1
+    },
+    {
+        "pergunta": "Finaliza o expediente:",
+        "id": 2
+    },
+    {
+        "pergunta": "Alguém grita ou reclama com você:",
+        "id": 3
+    },
+    {
+        "pergunta": "Alguém te elogia:",
+        "id": 4
+    },
+    {
+        "pergunta": "Pensa em suas finanças:",
+        "id": 5
+    },
+    {
+        "pergunta": "Ambiente de trabalho na Nazária:",
+        "id": 6
+    },
+    {
+        "pergunta": "Reconhecimento do seu trabalho por seus colegas/equipe:",
+        "id": 7
+    },
+    {
+        "pergunta": "Interação com colegas de trabalho:",
+        "id": 8
+    },
+    {
+        "pergunta": "Comunicação com sua Liderança Imediata:",
+        "id": 9
+    },
+    {
+        "pergunta": "Reconhecimento do seu trabalho por seus colegas/equipe:",
+        "id": 10
+    },
+    {
+        "pergunta": "Oportunidade no ambiente de trabalho:",
+        "id": 11
+    },
+    {
+        "pergunta": "Demandas de atividades:",
+        "id": 12
+    }
+]
