@@ -33,6 +33,8 @@ function App() {
         addDocumentWithId(newUuid);
         localStorage.setItem('id', newUuid);
       }
+      console.log('Resposta enviada!');
+      alert('Sua resposta foi enviada com sucesso!');
     }
 
   }
@@ -74,6 +76,10 @@ function App() {
         </ul>
       </div>
       <button onClick={() => submitForm()}>ENVIAR</button>
+      <div className='footer'>
+        <div>
+          Desenvolvido por <a target='_blank' href='https://athilamatheusborges.github.io/'>Áthila Matheus</a></div>
+      </div>
     </div>
   );
 }

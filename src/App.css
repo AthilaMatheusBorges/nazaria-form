@@ -47,9 +47,27 @@
   color: black;
   margin: 10px;
   margin-bottom: 40px;
+  font-family: Carter;
 }
 
 .logo{
   width: 200px;
   margin: 20px;
+}
+
+.footer{
+  height: 50px;
+  background-color: #155A9E;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Caveat;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
 }

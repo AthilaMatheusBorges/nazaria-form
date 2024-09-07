@@ -23,7 +23,8 @@ img{
 
 P{
     font-size: 9px;
-    font-weight: bold;
+    font-weight: 300;
     color: white;
     margin: 0;
+    font-family: Carter;
 }

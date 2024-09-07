@@ -7,6 +7,18 @@
   /* Permite o scroll horizontal */
   white-space: nowrap;
   /* Garante que os itens fiquem em linha */
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+@media screen and (min-width: 480px) {
+  /* Seu código CSS aqui */
+  .container-list{
+    justify-content: center;
+  }
 }
 
 .container-question {
