@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Card from './card';
+import exportCollectionToCSV from './export.js';
 import emotions from './emotions.json';
 import React, { useState } from 'react';
 import perguntas from './perguntas.json';
@@ -9,8 +10,8 @@ import { collection, getDocs, doc, setDoc } from "firebase/firestore";
 import { db } from "./firebase";
 import { v4 as uuidv4 } from 'uuid';
 
-function App() {
 
+function App() {
   const [selecionados, setSelecionados] = useState(['', '', '', '', '', '', '', '', '', '', '', '']);
 
 
@@ -49,6 +50,8 @@ function App() {
     }
   }
 
+
+
   return (
     <div className="App">
       <img className='logo' src='/assets/logo-nazaria-p2.png'></img>
@@ -76,6 +79,9 @@ function App() {
         </ul>
       </div>
       <button onClick={() => submitForm()}>ENVIAR</button>
+      <button onClick={() => exportCollectionToCSV("respostas")
+
+      }>Exportar dados</button>
       <div className='footer'>
         <div>
           Desenvolvido por <a target='_blank' href='https://athilamatheusborges.github.io/'>Áthila Matheus</a></div>
